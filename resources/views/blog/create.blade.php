@@ -12,7 +12,7 @@
     @if ($errors->any())
         <div class="w-4/5 m-auto">
             <ul>
-                @foreach ($errors-all() as $item)
+                @foreach ($errors->all() as $item)
                     <li class="w-1/5 text-gray-50 bg-red-700 rounded-2xl">
                         {{$item}}
                     </li>

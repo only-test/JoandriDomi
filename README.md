@@ -78,3 +78,15 @@ To run the program you must have node.js (we need it for npm), xampp and compose
 7. in the second cmd run `php artisan migrate`, `php artisan key:generate` and `php artisan serve`
 8. open your browser and follow the link provided after you put `php artisan serve`
 9. from here use credentials to register and then log in and explore the blog
+
+
+Run:
+`git clone https://github.com/only-test/JoandriDomi.git`
+`cd JoandriDomi`
+`composer install`
+`npm install`
+`copy .env.example .env`
+`php artisan key:generate`
+`php artisan migrate`
+`php artisan db:seed`
+`php artisan serve`
